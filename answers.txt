@@ -1,0 +1,11 @@
+Alex Smith
+W205 - Assignment #1
+
+1. See file named “out”
+2. See file named “emr-out”
+3. Running the file locally took 2 minutes and 3.768 seconds. Running the file via EMR took 12 minutes and 46.764 seconds. 
+4. There are 2042 address tags. 
+5. Both the local version and the EMR version came up with the same answer which makes sense given that they were analyzing the same input file. 
+
+***
+We used the tag_counter.py program to count HTML5 heading tags. When we ran the program locally, we analyzed all the data on a single computer. When we ran the program with Elastic Map Reduce, we ran tag_counter across multiple machines to analyze the input data. The map part of map reduce separates the tasks across multiple machines while the reduce part summarizes the analyses from the multiple machines after they finish their analysis. 
